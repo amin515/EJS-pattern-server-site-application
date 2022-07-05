@@ -1,0 +1,21 @@
+
+
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <div class="view-content">
+                            <div class="view-content-img text-center d-block">
+                                <img style="width: 200px; height: 200px; object-fit: cover; border-radius: 50%;" src="/assets/upload/<%= data.photo %>" alt="">
+                            </div>
+                            <p><Strong>Name : </Strong> <%= data.name %> </p>
+                            <p><Strong>Email : </Strong> <%= data.email %></p>
+                            <p><Strong>Cell : </Strong><%= data.cell %></p>
+                        </div>
+                        <a class="btn btn-primary" href="/students">Back to Home</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
